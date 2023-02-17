@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainRoot : MonoBehaviour
 {
     [SerializeField] private GameObject[] points;
-    [SerializeField] private Vector3 growthDirection = new Vector3(0.1f, 0.05f, 0);
+    [SerializeField] private GameObject building;
     private void Start()
     {
         CreateRoots();
@@ -20,7 +20,8 @@ public class MainRoot : MonoBehaviour
             GameObject newRoot = Instantiate(GameResources.Instance.rootPrefab, pos, Quaternion.identity);
             newRoot.transform.parent = points[i].transform;
             newRoot.GetComponent<Roots>().SetPositionFirstNode(pos);
-            newRoot.GetComponent<Roots>().SetGrowthDirection(adjustedDirection);
+            newRoot.GetComponent<Roots>().SetBuilding(building);
+            newRoot.GetComponent<Roots>().SetGrowthDirection(adjustedDirection, 0);
 
         }
     }

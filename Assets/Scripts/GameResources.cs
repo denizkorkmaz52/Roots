@@ -22,4 +22,7 @@ public class GameResources : MonoBehaviour
 
     public GameObject rootPrefab;
     public GameObject bombPrefab;
+    public GameObject level1EnemyPrefab;
+    public GameObject level2EnemyPrefab;
+    public GameObject level3EnemyPrefab;
 }

@@ -46,3 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootPrefab: {fileID: 5231349022655566670, guid: d546a5501c1111f44a73e6377a4311d7, type: 3}
   bombPrefab: {fileID: 926098569497670751, guid: 1b1dc1a23edc4f343bb59bf956889e1e, type: 3}
+  level1EnemyPrefab: {fileID: 7054829880999647850, guid: 6e94aac04c491094fb0a6adc2d892e88, type: 3}
+  level2EnemyPrefab: {fileID: 5297291013375482968, guid: 553e4007e49104a40a072d8ec00f7628, type: 3}
+  level3EnemyPrefab: {fileID: 4868265160697807715, guid: fbd8db7c5fce73d43885a4bb3908baa6, type: 3}
